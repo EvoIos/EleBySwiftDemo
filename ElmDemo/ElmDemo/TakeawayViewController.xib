@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TakeawayViewController" customModule="ElmDemo" customModuleProvider="target">
+            <connections>
+                <outlet property="searchBar" destination="qFB-pm-AAU" id="kqJ-Gf-8Xd"/>
+                <outlet property="tableView" destination="6N5-b6-P22" id="KgJ-Mr-0Wd"/>
+                <outlet property="topConstraint" destination="8Xc-BL-psF" id="fMP-VN-7yy"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="grouped" separatorStyle="none" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="6N5-b6-P22">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="528"/>
+                    <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="PhD-Sh-X4J"/>
+                        <outlet property="delegate" destination="-1" id="Jgc-Si-XvR"/>
+                    </connections>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WGA-HG-XvA">
+                    <rect key="frame" x="0.0" y="56" width="320" height="44"/>
+                    <subviews>
+                        <searchBar contentMode="redraw" placeholder="请输入商家或商品名称" translatesAutoresizingMaskIntoConstraints="NO" id="qFB-pm-AAU">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </searchBar>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hIO-4Q-PTY">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <state key="normal">
+                                <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="searchBtnClick:" destination="-1" eventType="touchUpInside" id="9nR-58-K7Y"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="qFB-pm-AAU" firstAttribute="leading" secondItem="WGA-HG-XvA" secondAttribute="leading" id="3bM-T7-D7o"/>
+                        <constraint firstAttribute="bottom" secondItem="qFB-pm-AAU" secondAttribute="bottom" id="50R-xj-ANU"/>
+                        <constraint firstAttribute="trailing" secondItem="hIO-4Q-PTY" secondAttribute="trailing" id="72q-hN-jC8"/>
+                        <constraint firstAttribute="trailing" secondItem="qFB-pm-AAU" secondAttribute="trailing" id="App-rm-Q60"/>
+                        <constraint firstItem="hIO-4Q-PTY" firstAttribute="leading" secondItem="WGA-HG-XvA" secondAttribute="leading" id="Sii-zK-4ZI"/>
+                        <constraint firstItem="qFB-pm-AAU" firstAttribute="top" secondItem="WGA-HG-XvA" secondAttribute="top" id="fEY-bY-dd8"/>
+                        <constraint firstAttribute="height" constant="44" id="kaX-gG-duL"/>
+                        <constraint firstItem="hIO-4Q-PTY" firstAttribute="top" secondItem="WGA-HG-XvA" secondAttribute="top" id="wQq-qf-W9N"/>
+                        <constraint firstAttribute="bottom" secondItem="hIO-4Q-PTY" secondAttribute="bottom" id="ybG-0c-nHY"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="WGA-HG-XvA" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="2su-xb-aXo"/>
+                <constraint firstItem="WGA-HG-XvA" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="56" id="8Xc-BL-psF"/>
+                <constraint firstAttribute="trailing" secondItem="WGA-HG-XvA" secondAttribute="trailing" id="GsZ-Ga-YTV"/>
+                <constraint firstItem="6N5-b6-P22" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="REL-1o-uVc"/>
+                <constraint firstAttribute="bottom" secondItem="6N5-b6-P22" secondAttribute="bottom" constant="40" id="SI9-3x-Zh9"/>
+                <constraint firstItem="6N5-b6-P22" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ulM-KB-uQ7"/>
+                <constraint firstAttribute="trailing" secondItem="6N5-b6-P22" secondAttribute="trailing" id="x1C-td-bgH"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="90" y="260"/>
+        </view>
+    </objects>
+</document>

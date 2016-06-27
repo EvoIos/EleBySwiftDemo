@@ -1,0 +1,142 @@
+{
+    "data": [
+             {
+             "categories": "热销榜",
+             "shopList": [
+                          {
+                          
+                          "name": "豆腐鸡排双拼饭",
+                          "img": "豆腐鸡排双拼饭",
+                          "price": 25,
+                          "oldPrice": 50,
+                          "tips": "嫩香麻辣，奥尔良风",
+                          "rateScore": 4.9,
+                          "monthSoldCopies": 465,
+                          "specification":[
+                                           {
+                                           "name": "小",
+                                           "price":25
+                                           },
+                                           {
+                                           "name": "中",
+                                           "price":30
+                                           },
+                                           {
+                                           "name": "大",
+                                           "price":35
+                                           }
+                                           ]
+                          },
+                          {
+                          "name": "传统黄家煎饼",
+                          "img": "传统黄家煎饼",
+                          "price": 10.5,
+                          "oldPrice": -1,
+                          "tips": "绿豆杂面，油条筋道",
+                          "rateScore": 4.9,
+                          "monthSoldCopies": 280,
+                          "specification":[]
+                          }
+                          ]
+             },
+             {
+             "categories": "欧洲杯特惠套餐",
+             "shopList": [
+                          {
+                          "name": "鸡柳蔬菜套餐",
+                          "img": "鸡柳蔬菜套餐",
+                          "price": 31,
+                          "oldPrice": -1,
+                          "tips": "鸡柳蔬菜煎饼+现磨豆腐脑+酸梅汤，六月",
+                          "rateScore": 4.9,
+                          "monthSoldCopies": 272,
+                          "specification":[]
+                          }
+                          ]
+             },
+             {
+             "categories": "欧洲杯专享套餐",
+             "shopList": [
+                          {
+                          "name": "炭烤鸡腿饭套餐-白米饭",
+                          "img": "炭烤鸡腿饭套餐-白米饭",
+                          "price": 29.8,
+                          "oldPrice": -1,
+                          "tips": "炭烤鸡腿饭+鸡蛋羹+酸梅汤",
+                          "rateScore": 4,
+                          "monthSoldCopies": 48,
+                          "specification":[]
+                          }
+                          ]
+             },
+             {
+             "categories": "新品推荐",
+             "shopList": [
+                          {
+                          "name": "炭烤鸡腿饭套餐",
+                          "img": "炭烤鸡腿饭套餐",
+                          "price": 29.8,
+                          "oldPrice": -1,
+                          "tips": "",
+                          "rateScore": 0,
+                          "monthSoldCopies": 3,
+                          "specification":[]
+                          },
+                          {
+                          "name": "炭烤鸡腿饭",
+                          "img": "炭烤鸡腿饭",
+                          "price": 35,
+                          "tips": "",
+                          "rateScore": 4,
+                          "monthSoldCopies": 11,
+                          "specification":[]
+                          },
+                          {
+                          "name": "浓香咖喱鸡肉饭",
+                          "img": "浓香咖喱鸡肉饭",
+                          "price": 38,
+                          "oldPrice": -1,
+                          "tips": "",
+                          "rateScore": 5,
+                          "monthSoldCopies": 2,
+                          "specification":[]
+                          },
+                          {
+                          "name": "浓香咖喱鸡肉饭",
+                          "img": "浓香咖喱鸡肉饭",
+                          "price": 40,
+                          "oldPrice": -1,
+                          "tips": "日式咖喱，牛肉劲道。浓香咖喱",
+                          "rateScore": 5,
+                          "monthSoldCopies": 1,
+                          "specification":[]
+                          }
+                          ]
+             },
+             {
+             "categories": "极致单品",
+             "shopList": [
+                          {
+                          "name": "黄家薄脆煎饼",
+                          "img": "黄家薄脆煎饼",
+                          "price": 10.5,
+                          "oldPrice": -1,
+                          "tips": "香酥薄脆，美味四溢",
+                          "rateScore": 4.5,
+                          "monthSoldCopies": 50,
+                          "specification":[]
+                          },
+                          {
+                          "name": "土豆肉丝卷",
+                          "img": "土豆肉丝卷",
+                          "price": 17,
+                          "oldPrice": -1,
+                          "tips": "色香味浓，鲜香筋道",
+                          "rateScore": 4.5,
+                          "monthSoldCopies": 50,
+                          "specification":[]
+                          }
+                          ]
+             }
+             ]
+}

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ShopItemDetailController" customModule="ElmDemo" customModuleProvider="target">
+            <connections>
+                <outlet property="containerView" destination="fGC-42-S7T" id="9La-cR-x5i"/>
+                <outlet property="imgHighConstraint" destination="hc6-44-n5p" id="cBg-lk-6vc"/>
+                <outlet property="imgView" destination="hLq-jm-DEJ" id="tuh-R9-aRv"/>
+                <outlet property="shopName" destination="YP6-Tq-A6F" id="nU5-WI-DhN"/>
+                <outlet property="tableView" destination="deZ-pO-jSP" id="bYn-bV-0EM"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="deZ-pO-jSP">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="nWq-uW-iN0"/>
+                        <outlet property="delegate" destination="-1" id="KF3-aj-i7k"/>
+                    </connections>
+                </tableView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fish" translatesAutoresizingMaskIntoConstraints="NO" id="hLq-jm-DEJ">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="300"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="300" id="hc6-44-n5p"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fGC-42-S7T">
+                    <rect key="frame" x="0.0" y="300" width="320" height="88"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="三文鱼刺身" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YP6-Tq-A6F">
+                            <rect key="frame" x="8" y="8" width="85" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="gW0-fA-GD6"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s8W-xl-Jj3" customClass="StarsView" customModule="ElmDemo" customModuleProvider="target">
+                            <rect key="frame" x="8" y="31" width="80" height="21"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="3Rk-xN-oT5"/>
+                                <constraint firstAttribute="width" constant="80" id="uo4-Ta-aJF"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="￥36" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Csh-Fj-bfb">
+                            <rect key="frame" x="8" y="54" width="38" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="mci-yK-Y15"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="1" green="0.25644715070000002" blue="0.33031503130000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zhB-yY-VDx" customClass="ShopItemAddButtonView" customModule="ElmDemo" customModuleProvider="target">
+                            <rect key="frame" x="212" y="54" width="100" height="30"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="100" id="Hxf-dq-4Jw"/>
+                                <constraint firstAttribute="height" constant="30" id="htD-0V-yWJ"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="zhB-yY-VDx" secondAttribute="trailing" constant="8" id="JTe-tI-miD"/>
+                        <constraint firstItem="YP6-Tq-A6F" firstAttribute="top" secondItem="fGC-42-S7T" secondAttribute="top" constant="8" id="Oou-5Z-Fro"/>
+                        <constraint firstItem="s8W-xl-Jj3" firstAttribute="leading" secondItem="fGC-42-S7T" secondAttribute="leading" constant="8" id="TDI-0J-j82"/>
+                        <constraint firstItem="YP6-Tq-A6F" firstAttribute="leading" secondItem="fGC-42-S7T" secondAttribute="leading" constant="8" id="dyV-HA-zbW"/>
+                        <constraint firstItem="Csh-Fj-bfb" firstAttribute="leading" secondItem="fGC-42-S7T" secondAttribute="leading" constant="8" id="hLO-m3-39F"/>
+                        <constraint firstAttribute="height" constant="88" id="j6a-9T-kj2"/>
+                        <constraint firstAttribute="bottom" secondItem="zhB-yY-VDx" secondAttribute="bottom" constant="4" id="lZ9-E1-XpN"/>
+                        <constraint firstItem="Csh-Fj-bfb" firstAttribute="top" secondItem="s8W-xl-Jj3" secondAttribute="bottom" constant="2" id="sAb-v5-V23"/>
+                        <constraint firstItem="s8W-xl-Jj3" firstAttribute="top" secondItem="YP6-Tq-A6F" secondAttribute="bottom" constant="2" id="t84-mv-qjI"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="fGC-42-S7T" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="0N2-cU-gc3"/>
+                <constraint firstItem="hLq-jm-DEJ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="8yD-Lb-upb"/>
+                <constraint firstItem="deZ-pO-jSP" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Bn4-7L-JyM"/>
+                <constraint firstAttribute="trailing" secondItem="deZ-pO-jSP" secondAttribute="trailing" id="NnG-PC-PHc"/>
+                <constraint firstItem="deZ-pO-jSP" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="VqE-Kl-D0o"/>
+                <constraint firstItem="hLq-jm-DEJ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="XGX-dN-7HF"/>
+                <constraint firstItem="fGC-42-S7T" firstAttribute="top" secondItem="hLq-jm-DEJ" secondAttribute="bottom" id="ah2-b9-rqD"/>
+                <constraint firstAttribute="trailing" secondItem="fGC-42-S7T" secondAttribute="trailing" id="hDa-ld-VmO"/>
+                <constraint firstAttribute="bottom" secondItem="deZ-pO-jSP" secondAttribute="bottom" id="kuL-K1-LID"/>
+                <constraint firstAttribute="trailing" secondItem="hLq-jm-DEJ" secondAttribute="trailing" id="wRp-LU-nRY"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="fish" width="600" height="397"/>
+    </resources>
+</document>

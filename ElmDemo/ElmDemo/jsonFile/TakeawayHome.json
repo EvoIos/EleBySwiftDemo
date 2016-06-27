@@ -1,0 +1,552 @@
+{
+    "ShopList": [
+                 {
+                 "ShopInfo": {
+                 "shopImg": "meal1",
+                 "shopName": "星米（富力城店）",
+                 "shopRatings": "4.2",
+                 "shopSoldCopies": "651",
+                 "shippingCosts": "4",
+                 "shippingGetPrice": "20",
+                 "develiyTime": "51",
+                 "develiyDistance": "1570",
+                 "selfAttributes": [
+                                    {
+                                    "attributes": "保"
+                                    },
+                                    {
+                                    "attributes": "蜂鸟专送"
+                                    }
+                                    ]
+                 },
+                 "extendedAttributes": [
+                                        {
+                                        "extendedLabel": "首",
+                                        "extendedDetails": "(不与其他活动同享)新用户下单立减13元"
+                                        },
+                                        {
+                                        "extendedLabel": "减",
+                                        "extendedDetails": "在线支付满28减8， 满60减16"
+                                        },
+                                        {
+                                        "extendedLabel": "专",
+                                        "extendedDetails": "该商家在线支付支持使用[专享红包]"
+                                        }
+                                        ]
+                 },
+                 {
+                 "ShopInfo": {
+                 "shopImg": "meal2",
+                 "shopName": "集食号（北京国贸店）",
+                 "shopRatings": "3.5",
+                 "shopSoldCopies": "192",
+                 "shippingCosts": "-1",
+                 "shippingGetPrice": "0",
+                 "develiyTime": "44",
+                 "develiyDistance": "431",
+                 "selfAttributes": [
+                                    {
+                                    "attributes": "票"
+                                    }
+                                    ]
+                 },
+                 "extendedAttributes": [
+                                        {
+                                        "extendedLabel": "减",
+                                        "extendedDetails": "在线支付满28减8， 满60减16"
+                                        }
+                                        ]
+                 },
+                 {
+                 "ShopInfo": {
+                 "shopImg": "meal1",
+                 "shopName": "星米（富力城店）",
+                 "shopRatings": "4.2",
+                 "shopSoldCopies": "651",
+                 "shippingCosts": "4",
+                 "shippingGetPrice": "20",
+                 "develiyTime": "51",
+                 "develiyDistance": "1570",
+                 "selfAttributes": [
+                                    {
+                                    "attributes": "票"
+                                    },
+                                    {
+                                    "attributes": "付"
+                                    },
+                                    {
+                                    "attributes": "保"
+                                    },
+                                    {
+                                    "attributes": "蜂鸟专送"
+                                    }
+                                    ]
+                 },
+                 "extendedAttributes": [
+                                        {
+                                        "extendedLabel": "首",
+                                        "extendedDetails": "(不与其他活动同享)新用户下单立减13元"
+                                        }
+                                        ]
+                 },
+                 {
+                 "ShopInfo": {
+                 "shopImg": "meal2",
+                 "shopName": "集食号（北京国贸店）",
+                 "shopRatings": "1.5",
+                 "shopSoldCopies": "192",
+                 "shippingCosts": "-1",
+                 "shippingGetPrice": "0",
+                 "develiyTime": "44",
+                 "develiyDistance": "431",
+                 "selfAttributes": [
+                                    {
+                                    "attributes": "票"
+                                    },
+                                    {
+                                    "attributes": "付"
+                                    },
+                                    {
+                                    "attributes": "保"
+                                    },
+                                    {
+                                    "attributes": "蜂鸟专送"
+                                    }
+                                    ]
+                 },
+                 "extendedAttributes": [
+                                        {
+                                        "extendedLabel": "减",
+                                        "extendedDetails": "在线支付满28减8， 满60减16"
+                                        }
+                                        ]
+                 },
+                 {
+                 "ShopInfo": {
+                 "shopImg": "meal1",
+                 "shopName": "星米（富力城店）",
+                 "shopRatings": "3.2",
+                 "shopSoldCopies": "651",
+                 "shippingCosts": "4",
+                 "shippingGetPrice": "20",
+                 "develiyTime": "51",
+                 "develiyDistance": "1570",
+                 "selfAttributes": [
+                                    {
+                                    "attributes": "票"
+                                    },
+                                    {
+                                    "attributes": "付"
+                                    },
+                                    {
+                                    "attributes": "保"
+                                    },
+                                    {
+                                    "attributes": "蜂鸟专送"
+                                    }
+                                    ]
+                 },
+                 "extendedAttributes": [
+                                        {
+                                        "extendedLabel": "首",
+                                        "extendedDetails": "(不与其他活动同享)新用户下单立减13元"
+                                        },
+                                        {
+                                        "extendedLabel": "减",
+                                        "extendedDetails": "在线支付满28减8， 满60减16"
+                                        },
+                                        {
+                                        "extendedLabel": "专",
+                                        "extendedDetails": "该商家在线支付支持使用[专享红包]"
+                                        }
+                                        ]
+                 },
+                 {
+                 "ShopInfo": {
+                 "shopImg": "meal2",
+                 "shopName": "集食号（北京国贸店）",
+                 "shopRatings": "2.5",
+                 "shopSoldCopies": "192",
+                 "shippingCosts": "-1",
+                 "shippingGetPrice": "0",
+                 "develiyTime": "44",
+                 "develiyDistance": "431",
+                 "selfAttributes":[
+                                   {
+                                   "attributes": "票"
+                                   },
+                                   {
+                                   "attributes": "付"
+                                   },
+                                   {
+                                   "attributes": "保"
+                                   },
+                                   {
+                                   "attributes": "蜂鸟专送"
+                                   }
+                                   ]
+                 },
+                 "extendedAttributes": [
+                                        {
+                                        "extendedLabel": "减",
+                                        "extendedDetails": "在线支付满28减8， 满60减16"
+                                        }
+                                        ]
+                 },
+                 {
+                 "ShopInfo": {
+                 "shopImg": "meal1",
+                 "shopName": "星米（富力城店）",
+                 "shopRatings": "2.2",
+                 "shopSoldCopies": "651",
+                 "shippingCosts": "4",
+                 "shippingGetPrice": "20",
+                 "develiyTime": "51",
+                 "develiyDistance": "1570",
+                 "selfAttributes": [
+                                    {
+                                    "attributes": "票"
+                                    },
+                                    {
+                                    "attributes": "付"
+                                    },
+                                    {
+                                    "attributes": "保"
+                                    },
+                                    {
+                                    "attributes": "蜂鸟专送"
+                                    }
+                                    ]
+                 },
+                 "extendedAttributes": [
+                                        {
+                                        "extendedLabel": "首",
+                                        "extendedDetails": "(不与其他活动同享)新用户下单立减13元"
+                                        },
+                                        {
+                                        "extendedLabel": "减",
+                                        "extendedDetails": "在线支付满28减8， 满60减16"
+                                        },
+                                        {
+                                        "extendedLabel": "专",
+                                        "extendedDetails": "该商家在线支付支持使用[专享红包]"
+                                        }
+                                        ]
+                 },
+                 {
+                 "ShopInfo": {
+                 "shopImg": "meal2",
+                 "shopName": "集食号（北京国贸店）",
+                 "shopRatings": "3.5",
+                 "shopSoldCopies": "192",
+                 "shippingCosts": "-1",
+                 "shippingGetPrice": "0",
+                 "develiyTime": "44",
+                 "develiyDistance": "431",
+                 "selfAttributes": [
+                                    {
+                                    "attributes": "票"
+                                    },
+                                    {
+                                    "attributes": "付"
+                                    },
+                                    {
+                                    "attributes": "保"
+                                    },
+                                    {
+                                    "attributes": "蜂鸟专送"
+                                    }
+                                    ]                 },
+                 "extendedAttributes": [
+                                        {
+                                        "extendedLabel": "减",
+                                        "extendedDetails": "在线支付满28减8， 满60减16"
+                                        }
+                                        ]
+                 },
+                 {
+                 "ShopInfo": {
+                 "shopImg": "meal1",
+                 "shopName": "星米（富力城店）",
+                 "shopRatings": "5",
+                 "shopSoldCopies": "651",
+                 "shippingCosts": "4",
+                 "shippingGetPrice": "20",
+                 "develiyTime": "51",
+                 "develiyDistance": "1570",
+                 "selfAttributes": [
+                                    {
+                                    "attributes": "票"
+                                    },
+                                    {
+                                    "attributes": "付"
+                                    },
+                                    {
+                                    "attributes": "保"
+                                    },
+                                    {
+                                    "attributes": "蜂鸟专送"
+                                    }
+                                    ]
+                 },
+                 "extendedAttributes": [
+                                        {
+                                        "extendedLabel": "首",
+                                        "extendedDetails": "(不与其他活动同享)新用户下单立减13元"
+                                        },
+                                        {
+                                        "extendedLabel": "减",
+                                        "extendedDetails": "在线支付满28减8， 满60减16"
+                                        },
+                                        {
+                                        "extendedLabel": "专",
+                                        "extendedDetails": "该商家在线支付支持使用[专享红包]"
+                                        }
+                                        ]
+                 },
+                 {
+                 "ShopInfo": {
+                 "shopImg": "meal2",
+                 "shopName": "集食号（北京国贸店）",
+                 "shopRatings": "0",
+                 "shopSoldCopies": "192",
+                 "shippingCosts": "-1",
+                 "shippingGetPrice": "0",
+                 "develiyTime": "44",
+                 "develiyDistance": "431",
+                 "selfAttributes": [
+                                    {
+                                    "attributes": "票"
+                                    },
+                                    {
+                                    "attributes": "付"
+                                    },
+                                    {
+                                    "attributes": "保"
+                                    },
+                                    {
+                                    "attributes": "蜂鸟专送"
+                                    }
+                                    ]                 },
+                 "extendedAttributes": [
+                                        {
+                                        "extendedLabel": "减",
+                                        "extendedDetails": "在线支付满28减8， 满60减16"
+                                        }
+                                        ]
+                 },
+                 {
+                 "ShopInfo": {
+                 "shopImg": "meal1",
+                 "shopName": "星米（富力城店）",
+                 "shopRatings": "0.5",
+                 "shopSoldCopies": "651",
+                 "shippingCosts": "4",
+                 "shippingGetPrice": "20",
+                 "develiyTime": "51",
+                 "develiyDistance": "1570",
+                 "selfAttributes": [
+                                    {
+                                    "attributes": "票"
+                                    },
+                                    {
+                                    "attributes": "付"
+                                    },
+                                    {
+                                    "attributes": "保"
+                                    },
+                                    {
+                                    "attributes": "蜂鸟专送"
+                                    }
+                                    ]
+                 },
+                 "extendedAttributes": [
+                                        {
+                                        "extendedLabel": "首",
+                                        "extendedDetails": "(不与其他活动同享)新用户下单立减13元"
+                                        },
+                                        {
+                                        "extendedLabel": "减",
+                                        "extendedDetails": "在线支付满28减8， 满60减16"
+                                        },
+                                        {
+                                        "extendedLabel": "专",
+                                        "extendedDetails": "该商家在线支付支持使用[专享红包]"
+                                        }
+                                        ]
+                 },
+                 {
+                 "ShopInfo": {
+                 "shopImg": "meal2",
+                 "shopName": "集食号（北京国贸店）",
+                 "shopRatings": "3.5",
+                 "shopSoldCopies": "192",
+                 "shippingCosts": "-1",
+                 "shippingGetPrice": "0",
+                 "develiyTime": "44",
+                 "develiyDistance": "431",
+                 "selfAttributes": [
+                                    {
+                                    "attributes": "票"
+                                    },
+                                    {
+                                    "attributes": "付"
+                                    },
+                                    {
+                                    "attributes": "保"
+                                    },
+                                    {
+                                    "attributes": "蜂鸟专送"
+                                    }
+                                    ]                 },
+                 "extendedAttributes": [
+                                        {
+                                        "extendedLabel": "减",
+                                        "extendedDetails": "在线支付满28减8， 满60减16"
+                                        }
+                                        ]
+                 }, 
+                 {
+                 "ShopInfo": {
+                 "shopImg": "meal1", 
+                 "shopName": "星米（富力城店）", 
+                 "shopRatings": "4.2", 
+                 "shopSoldCopies": "651", 
+                 "shippingCosts": "4", 
+                 "shippingGetPrice": "20", 
+                 "develiyTime": "51", 
+                 "develiyDistance": "1570", 
+                 "selfAttributes": [
+                                    {
+                                    "attributes": "票"
+                                    }, 
+                                    {
+                                    "attributes": "付"
+                                    }, 
+                                    {
+                                    "attributes": "保"
+                                    }, 
+                                    {
+                                    "attributes": "蜂鸟专送"
+                                    }
+                                    ]
+                 }, 
+                 "extendedAttributes": [
+                                        {
+                                        "extendedLabel": "首", 
+                                        "extendedDetails": "(不与其他活动同享)新用户下单立减13元"
+                                        }, 
+                                        {
+                                        "extendedLabel": "减", 
+                                        "extendedDetails": "在线支付满28减8， 满60减16"
+                                        }, 
+                                        {
+                                        "extendedLabel": "专", 
+                                        "extendedDetails": "该商家在线支付支持使用[专享红包]"
+                                        }
+                                        ]
+                 }, 
+                 {
+                 "ShopInfo": {
+                 "shopImg": "meal2", 
+                 "shopName": "集食号（北京国贸店）", 
+                 "shopRatings": "3.5", 
+                 "shopSoldCopies": "192", 
+                 "shippingCosts": "-1", 
+                 "shippingGetPrice": "0", 
+                 "develiyTime": "44", 
+                 "develiyDistance": "431", 
+                 "selfAttributes": [
+                                    {
+                                    "attributes": "票"
+                                    },
+                                    {
+                                    "attributes": "付"
+                                    },
+                                    {
+                                    "attributes": "保"
+                                    },
+                                    {
+                                    "attributes": "蜂鸟专送"
+                                    }
+                                    ]                 },
+                 "extendedAttributes": [
+                                        {
+                                        "extendedLabel": "减", 
+                                        "extendedDetails": "在线支付满28减8， 满60减16"
+                                        }
+                                        ]
+                 }, 
+                 {
+                 "ShopInfo": {
+                 "shopImg": "meal1", 
+                 "shopName": "星米（富力城店）", 
+                 "shopRatings": "4.2", 
+                 "shopSoldCopies": "651", 
+                 "shippingCosts": "4", 
+                 "shippingGetPrice": "20", 
+                 "develiyTime": "51", 
+                 "develiyDistance": "1570", 
+                 "selfAttributes": [
+                                    {
+                                    "attributes": "票"
+                                    }, 
+                                    {
+                                    "attributes": "付"
+                                    }, 
+                                    {
+                                    "attributes": "保"
+                                    }, 
+                                    {
+                                    "attributes": "蜂鸟专送"
+                                    }
+                                    ]
+                 }, 
+                 "extendedAttributes": [
+                                        {
+                                        "extendedLabel": "首", 
+                                        "extendedDetails": "(不与其他活动同享)新用户下单立减13元"
+                                        }, 
+                                        {
+                                        "extendedLabel": "减", 
+                                        "extendedDetails": "在线支付满28减8， 满60减16"
+                                        }, 
+                                        {
+                                        "extendedLabel": "专", 
+                                        "extendedDetails": "该商家在线支付支持使用[专享红包]"
+                                        }
+                                        ]
+                 }, 
+                 {
+                 "ShopInfo": {
+                 "shopImg": "meal2", 
+                 "shopName": "集食号（北京国贸店）", 
+                 "shopRatings": "3.5", 
+                 "shopSoldCopies": "192", 
+                 "shippingCosts": "-1", 
+                 "shippingGetPrice": "0", 
+                 "develiyTime": "44", 
+                 "develiyDistance": "431", 
+                 "selfAttributes": [
+                                    {
+                                    "attributes": "票"
+                                    },
+                                    {
+                                    "attributes": "付"
+                                    },
+                                    {
+                                    "attributes": "保"
+                                    },
+                                    {
+                                    "attributes": "蜂鸟专送"
+                                    }
+                                    ]                 },
+                 "extendedAttributes": [
+                                        {
+                                        "extendedLabel": "减", 
+                                        "extendedDetails": "在线支付满28减8， 满60减16"
+                                        }
+                                        ]
+                 }
+                 ]
+}

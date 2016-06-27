@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="274" id="KGk-i7-Jjw" customClass="TakeawayClassificationCell" customModule="ElmDemo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="274"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="273"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iCx-rL-fSS" customClass="LCCircleLoopView" customModule="ElmDemo" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="80" id="40u-7Y-j7z"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vuw-jU-6PO">
+                        <rect key="frame" x="0.0" y="80" width="320" height="178"/>
+                        <subviews>
+                            <view tag="102" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FT6-Gc-2lV" customClass="ClassifiedItemView" customModule="ElmDemo" customModuleProvider="target">
+                                <rect key="frame" x="164" y="0.0" width="74" height="88"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="88" id="dGx-uN-HQK"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="image" value="ecard_disable"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="title" value="预定早餐"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view tag="103" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ooX-mC-JCd" customClass="ClassifiedItemView" customModule="ElmDemo" customModuleProvider="target">
+                                <rect key="frame" x="246" y="0.0" width="74" height="88"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="88" id="9Hu-gl-gwo"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="title" value="蜂鸟专送"/>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="image" value="ecard_disable"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view tag="105" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L2S-3o-7cl" customClass="ClassifiedItemView" customModule="ElmDemo" customModuleProvider="target">
+                                <rect key="frame" x="82" y="90" width="74" height="88"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="88" id="h7i-7q-6AS"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="image" value="ecard_disable"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="title" value="甜品饮品"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view tag="106" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uyg-aW-g0I" customClass="ClassifiedItemView" customModule="ElmDemo" customModuleProvider="target">
+                                <rect key="frame" x="164" y="90" width="74" height="88"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="88" id="btZ-C9-NL1"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="image" value="ecard_disable"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="title" value="果蔬生鲜"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view tag="107" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RbL-ee-S7H" customClass="ClassifiedItemView" customModule="ElmDemo" customModuleProvider="target">
+                                <rect key="frame" x="246" y="90" width="74" height="88"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="88" id="brs-JY-Dnw"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="image" value="ecard_disable"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="title" value="鲜花蛋糕"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view tag="104" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jc7-Jt-rBQ" customClass="ClassifiedItemView" customModule="ElmDemo" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="90" width="74" height="88"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="88" id="fKw-4V-pfB"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="image" value="ecard_disable"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="title" value="超市便利店"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view tag="101" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oBb-re-HA0" customClass="ClassifiedItemView" customModule="ElmDemo" customModuleProvider="target">
+                                <rect key="frame" x="82" y="0.0" width="74" height="88"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="88" id="lTj-6W-7bE"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="image" value="ecard_disable"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="title" value="土豪推荐"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view tag="100" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NxI-8g-Qzc" customClass="ClassifiedItemView" customModule="ElmDemo" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="74" height="88"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="88" id="h1d-9b-3cf"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="title" value="美食"/>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="image" value="ecard_disable"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="ooX-mC-JCd" secondAttribute="trailing" id="2fH-nC-RAA"/>
+                            <constraint firstItem="FT6-Gc-2lV" firstAttribute="top" secondItem="Vuw-jU-6PO" secondAttribute="top" id="3Y1-7R-c1z"/>
+                            <constraint firstItem="oBb-re-HA0" firstAttribute="leading" secondItem="NxI-8g-Qzc" secondAttribute="trailing" constant="8" id="3uY-WM-FDm"/>
+                            <constraint firstItem="NxI-8g-Qzc" firstAttribute="top" secondItem="Vuw-jU-6PO" secondAttribute="top" id="4Qv-Cr-6Ft"/>
+                            <constraint firstItem="ooX-mC-JCd" firstAttribute="top" secondItem="Vuw-jU-6PO" secondAttribute="top" id="7dl-8b-fzx"/>
+                            <constraint firstItem="NxI-8g-Qzc" firstAttribute="leading" secondItem="Vuw-jU-6PO" secondAttribute="leading" id="9jd-p5-ux2"/>
+                            <constraint firstAttribute="bottom" secondItem="Uyg-aW-g0I" secondAttribute="bottom" id="9mP-mJ-XRf"/>
+                            <constraint firstItem="Uyg-aW-g0I" firstAttribute="leading" secondItem="L2S-3o-7cl" secondAttribute="trailing" constant="8" id="GzF-fs-0og"/>
+                            <constraint firstAttribute="bottom" secondItem="RbL-ee-S7H" secondAttribute="bottom" id="KSo-Zy-xUO"/>
+                            <constraint firstItem="oBb-re-HA0" firstAttribute="width" secondItem="NxI-8g-Qzc" secondAttribute="width" id="L16-v6-JFc"/>
+                            <constraint firstItem="ooX-mC-JCd" firstAttribute="leading" secondItem="FT6-Gc-2lV" secondAttribute="trailing" constant="8" id="Mnf-P5-Pjf"/>
+                            <constraint firstItem="FT6-Gc-2lV" firstAttribute="width" secondItem="NxI-8g-Qzc" secondAttribute="width" id="PKd-gX-IA5"/>
+                            <constraint firstItem="ooX-mC-JCd" firstAttribute="width" secondItem="NxI-8g-Qzc" secondAttribute="width" id="R5C-fO-F2D"/>
+                            <constraint firstItem="FT6-Gc-2lV" firstAttribute="leading" secondItem="oBb-re-HA0" secondAttribute="trailing" constant="8" id="Vgw-R1-3Xe"/>
+                            <constraint firstItem="oBb-re-HA0" firstAttribute="top" secondItem="Vuw-jU-6PO" secondAttribute="top" id="Wqi-uI-576"/>
+                            <constraint firstItem="L2S-3o-7cl" firstAttribute="leading" secondItem="jc7-Jt-rBQ" secondAttribute="trailing" constant="8" id="XCx-H8-0Cc"/>
+                            <constraint firstItem="FT6-Gc-2lV" firstAttribute="leading" secondItem="oBb-re-HA0" secondAttribute="trailing" constant="8" id="XGc-Rv-xlg"/>
+                            <constraint firstItem="Uyg-aW-g0I" firstAttribute="leading" secondItem="L2S-3o-7cl" secondAttribute="trailing" constant="8" id="YTm-Po-iTQ"/>
+                            <constraint firstItem="L2S-3o-7cl" firstAttribute="leading" secondItem="jc7-Jt-rBQ" secondAttribute="trailing" constant="8" id="aY3-hn-tbX"/>
+                            <constraint firstAttribute="bottom" secondItem="jc7-Jt-rBQ" secondAttribute="bottom" id="aef-XA-9w5"/>
+                            <constraint firstItem="jc7-Jt-rBQ" firstAttribute="leading" secondItem="Vuw-jU-6PO" secondAttribute="leading" id="aoQ-2T-Ecv"/>
+                            <constraint firstAttribute="height" constant="178" id="cgE-Ug-7jC"/>
+                            <constraint firstItem="ooX-mC-JCd" firstAttribute="leading" secondItem="FT6-Gc-2lV" secondAttribute="trailing" constant="8" id="gpc-Jt-0cm"/>
+                            <constraint firstItem="Uyg-aW-g0I" firstAttribute="width" secondItem="jc7-Jt-rBQ" secondAttribute="width" id="hpU-zU-0TB"/>
+                            <constraint firstItem="RbL-ee-S7H" firstAttribute="width" secondItem="jc7-Jt-rBQ" secondAttribute="width" id="p8W-an-bYs"/>
+                            <constraint firstItem="RbL-ee-S7H" firstAttribute="leading" secondItem="Uyg-aW-g0I" secondAttribute="trailing" constant="8" id="tew-2i-ex2"/>
+                            <constraint firstItem="RbL-ee-S7H" firstAttribute="leading" secondItem="Uyg-aW-g0I" secondAttribute="trailing" constant="8" id="uMd-lY-L46"/>
+                            <constraint firstAttribute="trailing" secondItem="RbL-ee-S7H" secondAttribute="trailing" id="upf-i1-p86"/>
+                            <constraint firstAttribute="bottom" secondItem="L2S-3o-7cl" secondAttribute="bottom" id="xsb-rz-lWL"/>
+                            <constraint firstItem="L2S-3o-7cl" firstAttribute="width" secondItem="jc7-Jt-rBQ" secondAttribute="width" id="zyG-I3-6gS"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="Vuw-jU-6PO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="0ON-bD-PuA"/>
+                    <constraint firstItem="Vuw-jU-6PO" firstAttribute="top" secondItem="iCx-rL-fSS" secondAttribute="bottom" id="4NV-am-j0X"/>
+                    <constraint firstAttribute="trailing" secondItem="iCx-rL-fSS" secondAttribute="trailing" id="9RP-8a-D5U"/>
+                    <constraint firstAttribute="trailing" secondItem="Vuw-jU-6PO" secondAttribute="trailing" id="dvX-Bu-PRE"/>
+                    <constraint firstItem="iCx-rL-fSS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="fsB-Wa-AjT"/>
+                    <constraint firstItem="iCx-rL-fSS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="xaL-Fe-gQW"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="circleLoopView" destination="iCx-rL-fSS" id="H7b-k7-OZE"/>
+                <outletCollection property="shopCategoryItems" destination="NxI-8g-Qzc" collectionClass="NSMutableArray" id="5AM-7D-y4t"/>
+                <outletCollection property="shopCategoryItems" destination="oBb-re-HA0" collectionClass="NSMutableArray" id="lD5-Zp-JWq"/>
+                <outletCollection property="shopCategoryItems" destination="FT6-Gc-2lV" collectionClass="NSMutableArray" id="weC-tL-rar"/>
+                <outletCollection property="shopCategoryItems" destination="ooX-mC-JCd" collectionClass="NSMutableArray" id="OWT-68-5Dj"/>
+                <outletCollection property="shopCategoryItems" destination="jc7-Jt-rBQ" collectionClass="NSMutableArray" id="EjS-3O-D4c"/>
+                <outletCollection property="shopCategoryItems" destination="L2S-3o-7cl" collectionClass="NSMutableArray" id="Wwz-tn-Gki"/>
+                <outletCollection property="shopCategoryItems" destination="Uyg-aW-g0I" collectionClass="NSMutableArray" id="0WM-lk-jnr"/>
+                <outletCollection property="shopCategoryItems" destination="RbL-ee-S7H" collectionClass="NSMutableArray" id="so4-MY-a9i"/>
+            </connections>
+            <point key="canvasLocation" x="214" y="378"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ecard_disable" width="60" height="60"/>
+    </resources>
+</document>

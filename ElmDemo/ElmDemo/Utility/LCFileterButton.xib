@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LCFileterButton" customModule="ElmDemo" customModuleProvider="target">
+            <connections>
+                <outlet property="imgView" destination="EUd-W3-Cj9" id="FDY-O3-T3q"/>
+                <outlet property="titleLabel" destination="bRV-fr-cTg" id="arZ-ry-EFT"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EtD-2N-J1N">
+                    <rect key="frame" x="8" y="8" width="84" height="28"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bRV-fr-cTg">
+                            <rect key="frame" x="16" y="3" width="0.0" height="0.0"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="向下箭头" translatesAutoresizingMaskIntoConstraints="NO" id="EUd-W3-Cj9">
+                            <rect key="frame" x="17" y="7" width="22" height="13"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="13" id="jdQ-Ck-OV3"/>
+                                <constraint firstAttribute="width" constant="22" id="vdV-bh-nZP"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="84" id="4en-tZ-2W2"/>
+                        <constraint firstItem="bRV-fr-cTg" firstAttribute="leading" secondItem="EtD-2N-J1N" secondAttribute="leading" constant="16" id="8gR-SF-Kr6"/>
+                        <constraint firstItem="EUd-W3-Cj9" firstAttribute="leading" secondItem="bRV-fr-cTg" secondAttribute="trailing" constant="1" id="ELY-lj-J7L"/>
+                        <constraint firstItem="EUd-W3-Cj9" firstAttribute="top" secondItem="EtD-2N-J1N" secondAttribute="top" constant="7" id="FCk-oN-OsV"/>
+                        <constraint firstItem="EUd-W3-Cj9" firstAttribute="leading" secondItem="bRV-fr-cTg" secondAttribute="trailing" constant="1" id="T4l-9f-FeU"/>
+                        <constraint firstItem="bRV-fr-cTg" firstAttribute="top" secondItem="EtD-2N-J1N" secondAttribute="top" constant="3" id="nfL-ys-LrF"/>
+                        <constraint firstAttribute="height" constant="28" id="tt2-sH-2Ty"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kqH-aT-bLc">
+                    <rect key="frame" x="0.0" y="0.0" width="100" height="44"/>
+                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <state key="normal">
+                        <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonTapped:" destination="-1" eventType="touchUpInside" id="mzN-g3-7zS"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="EtD-2N-J1N" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="JVI-GS-G2e"/>
+                <constraint firstItem="EtD-2N-J1N" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="RYT-nk-PGx"/>
+                <constraint firstAttribute="trailing" secondItem="kqH-aT-bLc" secondAttribute="trailing" id="U0z-qd-uRD"/>
+                <constraint firstItem="kqH-aT-bLc" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="lhs-LJ-j82"/>
+                <constraint firstAttribute="bottom" secondItem="kqH-aT-bLc" secondAttribute="bottom" id="nY7-BH-PJf"/>
+                <constraint firstItem="kqH-aT-bLc" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="wwr-Zv-c60"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="321" y="305"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="向下箭头" width="14" height="7"/>
+    </resources>
+</document>

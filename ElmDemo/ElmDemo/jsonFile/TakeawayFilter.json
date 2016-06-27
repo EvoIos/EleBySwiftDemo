@@ -1,0 +1,164 @@
+{
+    "categoryAllInfo": [
+        {
+            "categoryName": "快餐便当", 
+            "categorImg" : "快餐便当",
+            "categoryDetails": [
+                {
+                    "shopItemName": "全部快餐便当", 
+                    "shopItemCount": "268"
+                }, 
+                {
+                    "shopItemName": "盖浇饭", 
+                    "shopItemCount": "154"
+                }, 
+                {
+                    "shopItemName": "米粉面馆", 
+                    "shopItemCount": 56
+                }, 
+                {
+                    "shopItemName": "麻辣烫", 
+                    "shopItemCount": 24
+                }, 
+                {
+                    "shopItemName": "香锅砂锅", 
+                    "shopItemCount": 20
+                }, 
+                {
+                    "shopItemName": "包子粥店", 
+                    "shopItemCount": 19
+                }, 
+                {
+                    "shopItemName": "饺子混沌", 
+                    "shopItemCount": 17
+                }, 
+                {
+                    "shopItemName": "生煎锅贴", 
+                    "shopItemCount": 17
+                }, 
+                {
+                    "shopItemName": "汉堡", 
+                    "shopItemCount": 6
+                }
+            ], 
+            "categoryTotalCount": 268
+        }, 
+        {
+            "categoryName": "特色菜系", 
+            "categorImg" : "特色菜系",
+            "categoryDetails": [
+                {
+                    "shopItemName": "全部特色菜系", 
+                    "shopItemCount": 191
+                }, 
+                {
+                    "shopItemName": "川湘菜", 
+                    "shopItemCount": 51
+                }, 
+                {
+                    "shopItemName": "海鲜", 
+                    "shopItemCount": 47
+                }, 
+                {
+                    "shopItemName": "其他菜系", 
+                    "shopItemCount": 39
+                }, 
+                {
+                    "shopItemName": "火锅烤鱼", 
+                    "shopItemCount": 30
+                }, 
+                {
+                    "shopItemName": "东北菜", 
+                    "shopItemCount": 13
+                }, 
+                {
+                    "shopItemName": "西北菜", 
+                    "shopItemCount": 8
+                }, 
+                {
+                    "shopItemName": "清真", 
+                    "shopItemCount": 8
+                }, 
+                {
+                    "shopItemName": "粤菜", 
+                    "shopItemCount": 7
+                }, 
+                {
+                    "shopItemName": "江浙菜", 
+                    "shopItemCount": 4
+                }, 
+                {
+                    "shopItemName": "鲁菜", 
+                    "shopItemCount": 2
+                }, 
+                {
+                    "shopItemName": "云南菜", 
+                    "shopItemCount": 1
+                }
+            ], 
+            "categoryTotalCount": 191
+        }, 
+        {
+            "categoryName": "异国料理", 
+            "categorImg" : "异国料理",
+            "categoryDetails": [
+                {
+                    "shopItemName": "全部异国料理", 
+                    "shopItemCount": 44
+                }, 
+                {
+                    "shopItemName": "川湘菜", 
+                    "shopItemCount": 44
+                }, 
+                {
+                    "shopItemName": "海鲜", 
+                    "shopItemCount": 20
+                }, 
+                {
+                    "shopItemName": "其他菜系", 
+                    "shopItemCount": 18
+                }, 
+                {
+                    "shopItemName": "火锅烤鱼", 
+                    "shopItemCount": 9
+                }, 
+                {
+                    "shopItemName": "东北菜", 
+                    "shopItemCount": 0
+                }
+            ], 
+            "categoryTotalCount": 44
+        }, 
+        {
+            "categoryName": "小吃夜宵", 
+            "categorImg" : "小吃夜宵",
+            "categoryDetails": [
+                {
+                    "shopItemName": "全部小吃夜宵", 
+                    "shopItemCount": 204
+                }, 
+                {
+                    "shopItemName": "川湘菜", 
+                    "shopItemCount": 44
+                }, 
+                {
+                    "shopItemName": "海鲜", 
+                    "shopItemCount": 20
+                }, 
+                {
+                    "shopItemName": "其他菜系", 
+                    "shopItemCount": 18
+                }, 
+                {
+                    "shopItemName": "火锅烤鱼", 
+                    "shopItemCount": 9
+                }, 
+                {
+                    "shopItemName": "东北菜", 
+                    "shopItemCount": 0
+                }
+            ], 
+            "categoryTotalCount": 204
+        }
+    ]
+}
